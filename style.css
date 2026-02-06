@@ -356,3 +356,30 @@ p{
     font-weight: lighter;
     margin-left: -5rem;
 }
+
+/* MUSIC BUTTON STYLE */
+#musicBtn {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 35px;
+  font-size: 20px;
+  font-family: 'Great Vibes', cursive;
+  color: white;
+  background: linear-gradient(45deg, #ff4d6d, #ff758f);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+#musicBtn:hover {
+  transform: translateX(-50%) scale(1.08);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+#musicBtn:active {
+  transform: translateX(-50%) scale(0.95);
+}
